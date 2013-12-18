@@ -1,0 +1,19 @@
+{
+  "name": "mqs-node-rabbitmq",
+  "version": "0.1.0",
+  "description": "Messaging Queue Service using Node.js and RabbitMQ.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --reporter spec tests"
+  },
+  "repository": "",
+  "author": "Bikash Sharma & Anchal Tyagi",
+  "license": "ValueHeap Proprietary License",
+  "devDependencies": {},
+  "dependencies": {
+    "uuid": "~1.4.1"
+  },
+  "engines": {
+    "node": ">=0.8.0"
+  }
+}
