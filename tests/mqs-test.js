@@ -31,7 +31,7 @@ var userObject = {
 describe('MQS Test', function() {
 	describe('MQS Test case 1', function() {
 		it('should post a request', function(done) {
-			client.post("/message/user", userObject, function(err, req, res, obj) {
+			client.post("/message/user/45454?sort=true", userObject, function(err, req, res, obj) {
 				if (err) throw (err);
 				expect(res.statusCode).to.equal(200);
 				//expect(obj.id).to.not.equal(null);
